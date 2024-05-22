@@ -1,0 +1,216 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Gaya untuk body */
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Gaya untuk header dan navigasi */
+  header {
+    background-color: #ff66b2; /* Pink */
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center; /* Menambahkan text-align: center; */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Menambahkan justify-content: center; */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Gaya untuk konten utama */
+  main {
+    padding: 20px;
+    background-color: #ffe2; /* Light pink */
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Gaya untuk judul */
+  .judul-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1000px;
+  }
+  
+  .judul-container h1 {
+    color: #000;
+  }
+  
+  /* Gaya untuk form login */
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 100px; /* Menambahkan margin-top untuk memberi jarak dari judul-container */
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff66b2;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .login-container button:hover {
+    background-color: #e60073;
+  }
+  
+
+ /* Gaya untuk form pencarian */
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-container input[type="button"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  /* Gaya untuk tabel */
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #000;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f2dede;
+  }
+  
+  /* Gaya untuk form login */
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff66b2;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .login-container button:hover {
+    background-color: #e60073;
+  }
+   
+  /* Gaya untuk footer */
+  footer {
+    background-color: #ff66b2; /* Pink */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    margin-top: 75px;
+  }
+  

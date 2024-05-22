@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  header {
+    background-color: #ff66b2; 
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+ 
+  main {
+    padding: 20px;
+    background-color: #ffe6f2;
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .data-diri-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .data-diri-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff66b2;
+  }
+  
+  .data-diri-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .data-diri-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .data-diri-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+  }
+  
+  .data-diri-container button {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 10px;
+  }
+  
+  .data-diri-container button:hover {
+    background-color: #e60073;
+  }
+  
+  
+  footer {
+    background-color: #ff66b2; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+  }
+  
