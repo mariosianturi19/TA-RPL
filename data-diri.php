@@ -85,4 +85,4 @@ if (isset($_GET['logout'])) {
         <p>&copy; 2024 Aplikasi Endorsement</p>
     </footer>
 </body>
-</html>
+    </html>
